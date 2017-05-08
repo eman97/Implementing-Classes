@@ -1,0 +1,39 @@
+**Process of abstraction
+We use this to find the essential feature set for a class.
+**Method definition
+Contains an access specifier (usually public), a return type, a method name, parameters, and the method body.
+**Constructors
+contain instructions to initialize objects.
+**Public interface of the class
+The public constructors and methods of a class form the public interface of the class. These are operating that any programmer can use to create and manipulate objects.
+**Instance Fields
+An object uses this to store its state, the data that it needs to execute its methods.
+**An instance field declaration consists of:
+An access specifier.
+The type of the instance field.
+The name of the instance field.
+**All instance fields should be declare as
+private. This specifier means that they can be accessed only by the methods of the same class.
+**Encapsulation is the
+process of hiding object data and providing methods for data access.
+**If the instance fields are declared as private
+then all data access must occur through the public methods.
+**To test a class
+use an environment for interactive testing, or write a second class to execute test instructions.
+**Test class
+A class with a main method that contains statements to test another class. It carries out the following steps:
+
+1. Construct one or more objects of the class that is being tested.
+2. Invoke one or more methods.
+3. Print out one or more results.
+**Instance fields belong
+Instance fields belong to an object. (Example: Balance variable of the BankAccount class.)
+**Parameter variables
+Belong to a method, they die when the method exist. 
+(Example: Amount variable of the deposit method.)
+**Local variables
+Belong to a method, they die when the method exist.
+(Example: newBalance variable of the deposit method.)
+
+
+
